@@ -117,6 +117,6 @@ Dataset sources: [UNSW-NB15](https://research.unsw.edu.au/projects/unsw-nb15-dat
 
 This is a self-directed exploration project, built to practice explainable ML and rigorous generalization testing beyond a single benchmark dataset — not a course submission. Feedback and issues welcome.
 
-##Note
+## Note
 
 Random Forest binary/multiclass models aren't included due to GitHub's file size limit — regenerate them by running train_models.py / multiclass_evaluation.py
