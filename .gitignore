@@ -1,0 +1,30 @@
+# Datasets (too large / not yours to redistribute -- link to source in README instead)
+data/raw/*.csv
+data/raw/cicids2017/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Optional: exclude large trained model files if repo size becomes an issue.
+# Uncomment if any single .pkl exceeds ~50-100MB or the repo feels heavy:
+# models/*.pkl
+
+models/random_forest_binary.pkl
+models/random_forest_multiclass.pkl
+models/xgboost_binary_notebook.pkl
